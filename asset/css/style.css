@@ -9,7 +9,7 @@ h1{
     text-align: center;
     margin-top: 2%;
     font-family: 'Fredoka One', cursive ;
-    color: rgb(249, 12, 123);
+    color: #e43171;
 }
 
 p{
@@ -21,6 +21,7 @@ p{
 img{
     height: 100px;
     width: 100px;
+    float:left;
 }
 
 /* cards */
@@ -33,10 +34,11 @@ section {
 
 /* container */
 .container{
-    height: 100px;
+    height: 104px;
     width: calc(100px*4);
-    background-color: blue;
-    border: solid black;
+    background-color: #0e0e16;
+    border: solid rgb(218, 3, 3);
+    /* vertical-align: middle; */
 }
 
 
@@ -56,6 +58,28 @@ section {
     width: 30%;
 }
 
+
 .group2{
     margin-top: 4%;
+}
+
+div p{
+    font-family: 'Fredoka One', cursive;
+    display: inline-block;
+    color: white;
+    margin-left: 4%;
+    margin-top: 8%;  
+}
+
+.inline{
+    float: left;
+}
+
+.job, .email{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.email{
+    
 }
