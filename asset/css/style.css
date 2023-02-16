@@ -34,10 +34,11 @@ section {
 
 /* container */
 .container{
-    height: 104px;
+    height: 100px;
     width: calc(100px*4);
     background-color: #0e0e16;
-    border: solid rgb(218, 3, 3);
+    border: rgba(0, 0, 0, 0.137);
+    box-shadow: 0px 0px 5px 1px;
     /* vertical-align: middle; */
 }
 
@@ -67,7 +68,7 @@ div p{
     font-family: 'Fredoka One', cursive;
     display: inline-block;
     color: white;
-    margin-left: 4%;
+    margin-left: 5%;
     margin-top: 8%;  
 }
 
@@ -76,10 +77,10 @@ div p{
 }
 
 .job, .email{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: small;
 }
 
 .email{
-    
+    color: #36aeec;
 }
